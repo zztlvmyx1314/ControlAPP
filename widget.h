@@ -2,6 +2,8 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include "setwidget.h"
+#include <QtMqtt/QtMqtt>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -15,7 +17,24 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+    void dealset();
+
+    void dealreceivemessage(const QByteArray &message, const QMqttTopicName &topic);
+
+    void connecttobroker();
+
+
+
+
+
+
 private:
     Ui::Widget *ui;
+
+    SetWidget* SetForm=NULL;
+
+    QMqttClient* Client=NULL;
+
+
 };
 #endif // WIDGET_H
