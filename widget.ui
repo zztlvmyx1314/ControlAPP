@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>445</width>
+    <width>450</width>
     <height>698</height>
    </rect>
   </property>
@@ -27,7 +27,7 @@
        <property name="maximumSize">
         <size>
          <width>100</width>
-         <height>500</height>
+         <height>50</height>
         </size>
        </property>
        <property name="text">
@@ -47,6 +47,25 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="conntobroker">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>连接</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -97,7 +116,7 @@
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true"/>
+            <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
            </property>
            <property name="text">
             <string>ON</string>
@@ -137,6 +156,9 @@
              <height>200</height>
             </size>
            </property>
+           <property name="styleSheet">
+            <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
+           </property>
            <property name="text">
             <string>OFF</string>
            </property>
@@ -173,6 +195,10 @@
              <height>200</height>
             </size>
            </property>
+           <property name="styleSheet">
+            <string notr="true">
+font: 20pt &quot;微软雅黑&quot;;</string>
+           </property>
            <property name="text">
             <string>ON</string>
            </property>
@@ -204,6 +230,9 @@
              <width>200</width>
              <height>200</height>
             </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
            </property>
            <property name="text">
             <string>OFF</string>

@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QSettings>
 
 namespace Ui {
 class SetWidget;
@@ -17,6 +18,7 @@ public:
     ~SetWidget();
 
     void dealsavebutton();
+    void initwidget();
 
 
 
@@ -27,6 +29,8 @@ public:
     QString deviceid=NULL;
     QString password=NULL;
 
+    QSettings *datafile=NULL;
+
 
 signals:
 
@@ -34,6 +38,8 @@ signals:
 
 private:
     Ui::SetWidget *ui;
+
+
 
 
 };

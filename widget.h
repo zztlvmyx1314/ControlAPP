@@ -4,6 +4,8 @@
 #include <QWidget>
 #include "setwidget.h"
 #include <QtMqtt/QtMqtt>
+#include <QMqttTopicName>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -28,12 +30,18 @@ public:
 
 
 
+
+
 private:
     Ui::Widget *ui;
 
     SetWidget* SetForm=NULL;
 
     QMqttClient* Client=NULL;
+
+    QMqttTopicName* Topic=NULL;
+
+
 
 
 };

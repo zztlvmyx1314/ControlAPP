@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,2,2">
+  <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,2,2,0">
    <item>
     <spacer name="verticalSpacer_4">
      <property name="orientation">
@@ -43,7 +43,7 @@
          <item>
           <widget class="QLineEdit" name="username">
            <property name="text">
-            <string>ControlAPP&amp;a119pHQEFSr</string>
+            <string/>
            </property>
           </widget>
          </item>
@@ -74,7 +74,7 @@
          <item>
           <widget class="QLineEdit" name="password">
            <property name="text">
-            <string>40F80EFF7F0F1F41EDD6BD966B79AE0E3EF7159C</string>
+            <string/>
            </property>
           </widget>
          </item>
@@ -105,7 +105,7 @@
          <item>
           <widget class="QLineEdit" name="clientid">
            <property name="text">
-            <string>ControlAPP|securemode=3,signmethod=hmacsha1|</string>
+            <string/>
            </property>
           </widget>
          </item>
@@ -164,6 +164,13 @@
       </size>
      </property>
     </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="statusbar">
+     <property name="text">
+      <string>状态：</string>
+     </property>
+    </widget>
    </item>
   </layout>
  </widget>
