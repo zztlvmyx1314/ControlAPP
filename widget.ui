@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>450</width>
-    <height>698</height>
+    <width>990</width>
+    <height>1171</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,14 +20,14 @@
       <widget class="QPushButton" name="set">
        <property name="minimumSize">
         <size>
-         <width>100</width>
-         <height>50</height>
+         <width>200</width>
+         <height>100</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>100</width>
-         <height>50</height>
+         <width>200</width>
+         <height>100</height>
         </size>
        </property>
        <property name="text">
@@ -52,14 +52,14 @@
       <widget class="QPushButton" name="conntobroker">
        <property name="minimumSize">
         <size>
-         <width>100</width>
-         <height>50</height>
+         <width>200</width>
+         <height>100</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>100</width>
-         <height>50</height>
+         <width>200</width>
+         <height>100</height>
         </size>
        </property>
        <property name="text">
@@ -105,14 +105,14 @@
           <widget class="QPushButton" name="lts">
            <property name="minimumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="styleSheet">
@@ -146,14 +146,14 @@
           <widget class="QPushButton" name="lbs">
            <property name="minimumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="styleSheet">
@@ -185,14 +185,14 @@
           <widget class="QPushButton" name="rts">
            <property name="minimumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="styleSheet">
@@ -221,14 +221,14 @@ font: 20pt &quot;微软雅黑&quot;;</string>
           <widget class="QPushButton" name="rbs">
            <property name="minimumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>200</width>
-             <height>200</height>
+             <width>400</width>
+             <height>400</height>
             </size>
            </property>
            <property name="styleSheet">

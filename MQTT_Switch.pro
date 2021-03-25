@@ -18,15 +18,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    setwidget.cpp \
+    setform.cpp \
     widget.cpp
 
 HEADERS += \
-    setwidget.h \
+    setform.h \
     widget.h
 
 FORMS += \
-    setwidget.ui \
+    setform.ui \
     widget.ui
 
 # Default rules for deployment.

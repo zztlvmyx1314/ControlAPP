@@ -2,9 +2,11 @@
 #define WIDGET_H
 
 #include <QWidget>
-#include "setwidget.h"
+
 #include <QtMqtt/QtMqtt>
-#include <QMqttTopicName>
+#include <QtMqtt/QMqttTopicName>
+#include "setform.h"
+
 
 
 QT_BEGIN_NAMESPACE
@@ -29,19 +31,33 @@ public:
 
 
 
+public:
 
 
+
+
+private slots:
+    void on_set_pressed();
+
+    void on_lts_clicked();
+
+    void on_rts_clicked();
+
+    void on_lbs_clicked();
+
+    void on_rbs_clicked();
 
 private:
     Ui::Widget *ui;
 
-    SetWidget* SetForm=NULL;
+//    SetWidget* SetForm=NULL;
 
     QMqttClient* Client=NULL;
 
     QMqttTopicName* Topic=NULL;
 
 
+     SetForm* setform=NULL;
 
 
 };
